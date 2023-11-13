@@ -4,13 +4,11 @@ export default function Lily2oo() {
   return (
     <div
       className={css({
-        backgroundColor: "red",
-        borderRadius: "9999px",
-        fontSize: "13px",
+        fontSize: "20px",
         padding: "10px 15px",
       })}
     >
-      Panda!
+      this is patch8 page
     </div>
   );
 }
