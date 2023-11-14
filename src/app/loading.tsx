@@ -11,8 +11,8 @@ export default function Loading() {
   const wrapperRef = useRef<HTMLDivElement | null>(null);
   const eyeOpenRef = useRef<HTMLImageElement | null>(null);
   const eyeCloseRef = useRef<HTMLImageElement | null>(null);
-  const LeftTextRef = useRef<HTMLHeadElement | null>(null);
-  const RightTextRef = useRef<HTMLHeadElement | null>(null);
+  const leftTextRef = useRef<HTMLHeadElement | null>(null);
+  const rightTextRef = useRef<HTMLHeadElement | null>(null);
   const didEffect = useRef(false);
   useLayoutEffect(() => {
     if (didEffect.current) return;
@@ -27,11 +27,11 @@ export default function Loading() {
       autoAlpha: 0,
       display: "block",
     });
-    gsap.set(RightTextRef.current, {
+    gsap.set(rightTextRef.current, {
         autoAlpha: 0,
         display: "inline",
       });
-      gsap.set(LeftTextRef.current, {
+      gsap.set(leftTextRef.current, {
         autoAlpha: 0,
         display: "inline",
       });
@@ -127,7 +127,7 @@ export default function Loading() {
         delay: 1,
         ease: "steps(1)",
       })
-      .to(LeftTextRef.current, {
+      .to(leftTextRef.current, {
         autoAlpha: 1,
         duration: 0.02,
         ease: "steps(1)",
@@ -142,10 +142,15 @@ export default function Loading() {
         duration: 0.1,
         ease: "steps(1)",
       })
-      .to(RightTextRef.current, {
+      .to(rightTextRef.current, {
         autoAlpha: 1,
         duration: 0.02,
         ease: "steps(1)",
+      })
+      .to(wrapperRef.current,{
+        autoAlpha:0,
+        duration:0.3,
+        delay:1,
       });
 
     blinkTL.play();
@@ -203,7 +208,7 @@ export default function Loading() {
           transform: "translate(-50%,-50%)",
         })}
       >
-        <span className={css({display: "none",marginRight:"10px"})} ref={LeftTextRef}>Patch</span><span className={css({display: "none"})} ref={RightTextRef}>8</span>
+        <span className={css({display: "none",marginRight:"10px"})} ref={leftTextRef}>Patch</span><span className={css({display: "none"})} ref={rightTextRef}>8</span>
       </h2>
     </div>
   );
