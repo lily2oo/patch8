@@ -8,12 +8,12 @@ export default function Lily2oo() {
     <div
       className={css({
         width: "100%",
-        minWidth:"",
+        minWidth: "",
         height: "100vh",
-        display:"flex",
-        justifyContent:"center",
-        alignItems:"center",
-        margin:{base:"50px auto",sm:"0"},
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        margin: { base: "50px auto", sm: "0" },
         _after: {
           content: '""',
           width: "100%",
@@ -35,10 +35,10 @@ export default function Lily2oo() {
         <header
           className={css({
             display: "flex",
-            justifyContent:"flex-end",
+            justifyContent: "flex-end",
             gap: "10px",
-            width:"90%",
-            margin:"0 auto 24px"
+            width: "90%",
+            margin: "0 auto 24px",
           })}
         >
           <h2
@@ -46,8 +46,8 @@ export default function Lily2oo() {
               color: "#FCFFDE",
               fontFamily: "brandonGrotesque",
               fontWeight: 900,
-              fontSize:16,
-              letterSpacing:"-0.02em"
+              fontSize: 16,
+              letterSpacing: "-0.02em",
             })}
           >
             Patch8
@@ -58,13 +58,17 @@ export default function Lily2oo() {
               gap: "10px",
             })}
           >
-            <Image src="/x.svg" alt="x icon" width={50} height={50} />
-            <Image
-              src="/instagram.svg"
-              alt="instagram icon"
-              width={50}
-              height={50}
-            />
+            <a href="https://twitter.com/Patch8_ixd">
+              <Image src="/x.svg" alt="x icon" width={50} height={50} />
+            </a>
+            <a href="https://www.instagram.com/patch8.ixd/">
+              <Image
+                src="/instagram.svg"
+                alt="instagram icon"
+                width={50}
+                height={50}
+              />
+            </a>
           </div>
         </header>
         <div>
@@ -72,14 +76,10 @@ export default function Lily2oo() {
             className={css({
               position: "relative",
               width: "100vw",
-              height:"120vw"
+              height: "120vw",
             })}
           >
-            <Image
-              src="/lily2oo.webp"
-              alt="instagram icon"
-              fill
-            />
+            <Image src="/lily2oo.webp" alt="instagram icon" fill />
             <h1
               className={css({
                 fontFamily: "brandonGrotesque",
@@ -89,38 +89,44 @@ export default function Lily2oo() {
                 position: "absolute",
                 bottom: 0,
                 left: "5%",
-                letterSpacing:"-0.02em"
+                letterSpacing: "-0.02em",
               })}
             >
               Lily2oo
             </h1>
           </div>
-          <div className={css({
-            width:"90%",
-            margin:"0 auto",
-          })}>
+          <div
+            className={css({
+              width: "90%",
+              margin: "0 auto",
+            })}
+          >
             <div
               className={css({
                 display: "flex",
                 gap: "10px",
                 // marginTop:"16px",
-                marginTop:"16px",
+                marginTop: "16px",
               })}
             >
-              <Image src="/x.svg" alt="x icon" width={50} height={50} />
-              <Image
-                src="/instagram.svg"
-                alt="instagram icon"
-                width={50}
-                height={50}
-              />
+              <a href="https://twitter.com/lily2oo">
+                <Image src="/x.svg" alt="x icon" width={50} height={50} />
+              </a>
+              <a href="https://www.instagram.com/_lily_2oo_/">
+                <Image
+                  src="/instagram.svg"
+                  alt="instagram icon"
+                  width={50}
+                  height={50}
+                />
+              </a>
             </div>
             <p
               className={css({
                 color: "#0A0F0E",
-                fontSize:14,
-                marginTop:"16px",
-                letterSpacing:"-0.02em"
+                fontSize: 14,
+                marginTop: "16px",
+                letterSpacing: "-0.02em",
               })}
             >
               デザイン、プログラミング、映像、企画、コピーなど、クリエイティブ全般を学び、分野の枠に囚われずに作品を制作している。
