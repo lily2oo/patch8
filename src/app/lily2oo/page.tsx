@@ -47,6 +47,7 @@ export default function Lily2oo() {
               fontFamily: "brandonGrotesque",
               fontWeight: 900,
               fontSize:16,
+              letterSpacing:"-0.02em"
             })}
           >
             Patch8
@@ -88,6 +89,7 @@ export default function Lily2oo() {
                 position: "absolute",
                 bottom: 0,
                 left: "5%",
+                letterSpacing:"-0.02em"
               })}
             >
               Lily2oo
