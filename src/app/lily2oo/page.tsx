@@ -75,9 +75,8 @@ export default function Lily2oo() {
             })}
           >
             <Image
-              src="/lily2oo.png"
+              src="/lily2oo.webp"
               alt="instagram icon"
-
               fill
             />
             <h1
