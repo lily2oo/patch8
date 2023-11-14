@@ -8,7 +8,7 @@ export default function Lily2oo() {
         padding: "10px 15px",
       })}
     >
-      this is patch8 page
+      this is patch8 page ver1
     </div>
   );
 }
