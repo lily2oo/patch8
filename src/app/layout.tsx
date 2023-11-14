@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import TypekitLoader from "@/app/TypekitLoader";
 import { css } from "../../styled-system/css";
+import Image from "next/image";
+import Loading from "./loading";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,10 +21,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <TypekitLoader />
-      <body className={css({
-        bg: "#FCFFDE",
-      })}
-      >{children}</body>
+      <body
+        className={css({
+          bg: "#FCFFDE",
+        })}
+      >
+        <Loading/>
+        {children}
+      </body>
     </html>
   );
 }
