@@ -99,19 +99,12 @@ export default function Lily2oo() {
             width:"90%",
             margin:"0 auto",
           })}>
-            <p
-              className={css({
-                color: "#0A0F0E",
-                fontSize:14,
-                margin:"16px 0"
-              })}
-            >
-              デザイン、プログラミング、映像、企画、コピーなど、クリエイティブ全般を学び、分野の枠に囚われずに作品を制作している。
-            </p>
             <div
               className={css({
                 display: "flex",
                 gap: "10px",
+                // marginTop:"16px",
+                marginTop:"16px",
               })}
             >
               <Image src="/x.svg" alt="x icon" width={50} height={50} />
@@ -122,6 +115,16 @@ export default function Lily2oo() {
                 height={50}
               />
             </div>
+            <p
+              className={css({
+                color: "#0A0F0E",
+                fontSize:14,
+                marginTop:"16px",
+                letterSpacing:"-0.02em"
+              })}
+            >
+              デザイン、プログラミング、映像、企画、コピーなど、クリエイティブ全般を学び、分野の枠に囚われずに作品を制作している。
+            </p>
           </div>
         </div>
       </section>
