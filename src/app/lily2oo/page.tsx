@@ -58,10 +58,10 @@ export default function Lily2oo() {
               gap: "10px",
             })}
           >
-            <a href="https://twitter.com/Patch8_ixd">
+            <a target="_blank" href="https://twitter.com/Patch8_ixd">
               <Image src="/x.svg" alt="x icon" width={50} height={50} />
             </a>
-            <a href="https://www.instagram.com/patch8.ixd/">
+            <a target="_blank" href="https://www.instagram.com/patch8.ixd/">
               <Image
                 src="/instagram.svg"
                 alt="instagram icon"
@@ -109,10 +109,10 @@ export default function Lily2oo() {
                 marginTop: "16px",
               })}
             >
-              <a href="https://twitter.com/lily2oo">
+              <a target="_blank" href="https://twitter.com/lily2oo">
                 <Image src="/x.svg" alt="x icon" width={50} height={50} />
               </a>
-              <a href="https://www.instagram.com/_lily_2oo_/">
+              <a target="_blank" href="https://www.instagram.com/_lily_2oo_/">
                 <Image
                   src="/instagram.svg"
                   alt="instagram icon"
