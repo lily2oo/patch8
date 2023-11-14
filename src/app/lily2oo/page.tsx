@@ -38,7 +38,7 @@ export default function Lily2oo() {
             justifyContent:"flex-end",
             gap: "10px",
             width:"90%",
-            margin:"0 auto 40px"
+            margin:"0 auto 24px"
           })}
         >
           <h2
@@ -101,7 +101,7 @@ export default function Lily2oo() {
               className={css({
                 color: "#0A0F0E",
                 fontSize:14,
-                margin:"24px 0"
+                margin:"16px 0"
               })}
             >
               デザイン、プログラミング、映像、企画、コピーなど、クリエイティブ全般を学び、分野の枠に囚われずに作品を制作している。
