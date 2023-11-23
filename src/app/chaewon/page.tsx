@@ -93,9 +93,8 @@ export default function Member() {
             <Image src={member.link} alt="instagram icon" fill />
             <h1
               className={css({
-                fontFamily: "UDGothic700",
+                fontFamily: "hiragino",
                 fontWeight: 900,
-                // fontSize: 60,
                 fontSize: 42,
                 color: "#FCFFDE",
                 position: "absolute",
@@ -133,6 +132,8 @@ export default function Member() {
             </div>
             <p
               className={css({
+                fontFamily: "hiragino",
+                fontWeight: 300,
                 color: "#0A0F0E",
                 fontSize: 14,
                 marginTop: "16px",

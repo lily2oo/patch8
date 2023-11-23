@@ -109,6 +109,8 @@ export default function Member() {
           >
             <p
               className={css({
+                fontFamily: "hiragino",
+                fontWeight: 300,
                 color: "#0A0F0E",
                 fontSize: 14,
                 marginTop: "16px",

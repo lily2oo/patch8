@@ -90,7 +90,6 @@ export default function Member() {
               className={css({
                 fontFamily: "hiragino",
                 fontWeight: 900,
-                // fontSize: 60,
                 fontSize: 42,
                 color: "#FCFFDE",
                 position: "absolute",
