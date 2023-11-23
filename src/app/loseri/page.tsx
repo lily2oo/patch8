@@ -1,5 +1,12 @@
 import { css } from "../../../styled-system/css";
 import Image from "next/image";
+import { BIZ_UDGothic } from 'next/font/google'
+
+const UDGothic700 = BIZ_UDGothic({
+  weight: '700',
+  preload: false,
+})
+
 
 const member = {
   name: "ろせり",
@@ -87,8 +94,7 @@ export default function Member() {
             <Image src={member.link} alt="instagram icon" fill />
             <h1
               className={css({
-                fontFamily:
-                  '"brandonGrotesque","游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", ',
+                fontFamily: "UDGothic700",
                 fontWeight: 900,
                 // fontSize: 60,
                 fontSize: 42,

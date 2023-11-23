@@ -86,8 +86,7 @@ export default function Member() {
             <Image src={member.link} alt="instagram icon" fill />
             <h1
               className={css({
-                fontFamily:
-                  '"brandonGrotesque","游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", ',
+                fontFamily:"brandonGrotesque",
                 fontWeight: 900,
                 fontSize: 60,
                 // fontSize: 42,
