@@ -2,7 +2,7 @@ import { css } from "../../../styled-system/css";
 import Image from "next/image";
 
 const member = {
-  name: "chaewon",
+  name: "ちぇうぉん",
   link: "/patch8/chaewon.webp",
   desc: "服すきなグラフィックデザインしている人",
   insta: "https://instagram.com/oddbibi_8_?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr",
