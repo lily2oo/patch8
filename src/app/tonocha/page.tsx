@@ -92,7 +92,7 @@ export default function Member() {
               height: "120vw",
             })}
           >
-            <Image src={member.link} alt="instagram icon" fill />
+            <Image src={member.link} alt="member photo" fill quality={100}/>
             <h1
               className={css({
                 fontFamily: "hiragino",
