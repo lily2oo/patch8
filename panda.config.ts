@@ -15,7 +15,8 @@ export default defineConfig({
     extend: {
       tokens:{
         fonts:{
-          brandonGrotesque:{value: "brandon-grotesque, sans-serif"}
+          brandonGrotesque:{value: "brandon-grotesque, sans-serif"},
+          hiragino:{value: "hiragino-kaku-gothic-pron, sans-serif"},
         }
       },
       breakpoints: {
