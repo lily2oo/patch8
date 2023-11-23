@@ -2,12 +2,12 @@ import { css } from "../../../styled-system/css";
 import Image from "next/image";
 
 const member = {
-  "name": "lily2oo",
-  "link": "/patch8/lily2oo.webp",
-  "desc": "人見知りだから、これを見れたあなたはレア",
-  "x": "https://twitter.com/lily2oo",
-  "insta": "https://www.instagram.com/_lily_2oo_/",
-}
+  name: "殿茶",
+  link: "/patch8/tonocha.webp",
+  desc: "イラストと、ほんの少しだけ動画制作。",
+  x: "https://twitter.com/tonocha__",
+  insta: "https://www.instagram.com/tonocha_/",
+};
 
 export default function Member() {
   return (
@@ -88,15 +88,17 @@ export default function Member() {
             <Image src={member.link} alt="instagram icon" fill />
             <h1
               className={css({
-                fontFamily: '"brandonGrotesque","游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", ',
+                fontFamily:
+                  '"brandonGrotesque","游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", ',
                 fontWeight: 900,
-                fontSize: 60,
-                // fontSize: 42,
+                // fontSize: 60,
+                fontSize: 42,
                 color: "#FCFFDE",
                 position: "absolute",
                 bottom: 0,
                 left: "5%",
                 letterSpacing: "-0.01em",
+                whiteSpace: "pre-wrap",
               })}
             >
               {member.name}

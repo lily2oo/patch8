@@ -2,11 +2,11 @@ import { css } from "../../../styled-system/css";
 import Image from "next/image";
 
 const member = {
-  "name": "lily2oo",
-  "link": "/patch8/lily2oo.webp",
-  "desc": "人見知りだから、これを見れたあなたはレア",
-  "x": "https://twitter.com/lily2oo",
-  "insta": "https://www.instagram.com/_lily_2oo_/",
+  "name": "aovoq",
+  "link": "/patch8/aovoq.webp",
+  "desc": "おいらは冬眠中",
+  "x": "https://x.com/ao_voq",
+  "insta": "https://instagram.com/aovoq",
 }
 
 export default function Member() {

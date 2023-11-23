@@ -2,12 +2,11 @@ import { css } from "../../../styled-system/css";
 import Image from "next/image";
 
 const member = {
-  "name": "lily2oo",
-  "link": "/patch8/lily2oo.webp",
-  "desc": "人見知りだから、これを見れたあなたはレア",
-  "x": "https://twitter.com/lily2oo",
-  "insta": "https://www.instagram.com/_lily_2oo_/",
-}
+  name: "ろせり",
+  link: "/patch8/loseri.webp",
+  desc: "アートよりエンタメがしたい新しいもの好き。思考型",
+  x: "https://twitter.com/loser_i_",
+};
 
 export default function Member() {
   return (
@@ -88,15 +87,17 @@ export default function Member() {
             <Image src={member.link} alt="instagram icon" fill />
             <h1
               className={css({
-                fontFamily: '"brandonGrotesque","游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", ',
+                fontFamily:
+                  '"brandonGrotesque","游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", ',
                 fontWeight: 900,
-                fontSize: 60,
-                // fontSize: 42,
+                // fontSize: 60,
+                fontSize: 42,
                 color: "#FCFFDE",
                 position: "absolute",
                 bottom: 0,
                 left: "5%",
                 letterSpacing: "-0.01em",
+                whiteSpace: "pre-wrap",
               })}
             >
               {member.name}
@@ -119,14 +120,6 @@ export default function Member() {
               <a target="_blank" href={member.x}>
                 <Image src="/x.svg" alt="x icon" width={50} height={50} />
               </a>
-              <a target="_blank" href={member.insta}>
-                <Image
-                  src="/instagram.svg"
-                  alt="instagram icon"
-                  width={50}
-                  height={50}
-                />
-              </a>
             </div>
             <p
               className={css({
@@ -136,7 +129,9 @@ export default function Member() {
                 letterSpacing: "-0.02em",
               })}
             >
-              {member.desc}
+                {member.desc.split("\n").map((t) => (
+                  <>{t}<br/></>
+                ))}
             </p>
           </div>
         </div>
