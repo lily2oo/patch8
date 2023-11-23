@@ -4,7 +4,7 @@ import Image from "next/image";
 const member = {
   "name": "lily2oo",
   "link": "/patch8/lily2oo.webp",
-  "desc": "人見知りだから、これを見れたあなたはレア",
+  "desc": "デザイン、プログラミング、映像、企画、コピーなど、クリエイティブ全般を学び、分野の枠に囚われずに作品を制作している。",
   "x": "https://twitter.com/lily2oo",
   "insta": "https://www.instagram.com/_lily_2oo_/",
 }
@@ -88,7 +88,7 @@ export default function Member() {
             <Image src={member.link} alt="instagram icon" fill />
             <h1
               className={css({
-                fontFamily: '"brandonGrotesque","游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", ',
+                fontFamily: "brandonGrotesque",
                 fontWeight: 900,
                 fontSize: 60,
                 // fontSize: 42,
