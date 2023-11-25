@@ -5,6 +5,7 @@ const member = {
   name: "Moto",
   link: "/patch8/moto.webp",
   desc: "早稲田大学から転入学してきた風来坊。\n気の向くままにいろいろ勉強中。",
+  x:"https://twitter.com/DamedeMoto_Moto"
 };
 
 export default function Member() {
@@ -107,6 +108,18 @@ export default function Member() {
               margin: "0 auto",
             })}
           >
+                        <div
+              className={css({
+                display: "flex",
+                gap: "10px",
+                // marginTop:"16px",
+                marginTop: "16px",
+              })}
+            >
+              <a target="_blank" href={member.x}>
+                <Image src="/x.svg" alt="x icon" width={50} height={50} />
+              </a>
+            </div>
             <p
               className={css({
                 fontFamily: "hiragino",
